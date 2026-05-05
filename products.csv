@@ -1,0 +1,16 @@
+product_id,product_name,category,price,stock_quantity,supplier
+1,Wireless Headphones,Electronics,2499,120,SoundTech
+2,Cotton T-Shirt,Clothing,499,350,FashionHub
+3,Yoga Mat,Sports,899,200,FitGear
+4,Python Book,Education,649,80,EduPress
+5,Coffee Maker,Appliances,3299,60,HomeEase
+6,Running Shoes,Sports,3499,95,StepUp
+7,Notebook Set,Stationery,199,500,WriteRight
+8,Bluetooth Speaker,Electronics,1999,140,SoundTech
+9,Formal Shirt,Clothing,1299,220,FashionHub
+10,Dumbbells 5kg,Sports,749,175,FitGear
+11,SQL Guide Book,Education,599,65,EduPress
+12,Air Fryer,Appliances,5999,40,HomeEase
+13,Sunglasses,Accessories,1199,300,StyleCo
+14,Backpack,Accessories,1599,185,StyleCo
+15,Water Bottle,Sports,399,420,FitGear

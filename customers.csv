@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,email,city,country,age,signup_date
+1,Aarav,Sharma,aarav.sharma@email.com,Hyderabad,India,28,15-03-2021
+2,Priya,Reddy,priya.reddy@email.com,Mumbai,India,34,22-07-2020
+3,Rahul,Gupta,rahul.gupta@email.com,Delhi,India,25,10-01-2022
+4,Sneha,Patel,sneha.patel@email.com,Bangalore,India,30,05-11-2019
+5,Vikram,Nair,vikram.nair@email.com,Chennai,India,42,18-06-2018
+6,Anjali,Iyer,anjali.iyer@email.com,Pune,India,27,28-02-2023
+7,Kiran,Mehta,kiran.mehta@email.com,Kolkata,India,38,14-09-2020
+8,Deepa,Singh,deepa.singh@email.com,Hyderabad,India,31,01-12-2021
+9,Arjun,Kumar,arjun.kumar@email.com,Jaipur,India,22,19-08-2022
+10,Meena,Pillai,meena.pillai@email.com,Kochi,India,45,30-04-2017
+11,Sanjay,Bose,sanjay.bose@email.com,Kolkata,India,33,07-03-2020
+12,Divya,Rao,divya.rao@email.com,Bangalore,India,29,16-05-2023
+13,Rohit,Joshi,rohit.joshi@email.com,Pune,India,36,23-08-2019
+14,Kavita,Desai,kavita.desai@email.com,Mumbai,India,41,11-01-2018
+15,Nikhil,Verma,nikhil.verma@email.com,Delhi,India,26,04-10-2022
