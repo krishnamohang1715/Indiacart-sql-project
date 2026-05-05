@@ -11,6 +11,7 @@ This project covers everything from basic SELECT queries to advanced Window Func
 IndiaCart-SQL-Project/
 │
 ├── README.md
+├── findings.md
 ├── datasets/
 │   ├── customers.csv
 │   ├── products.csv
@@ -23,8 +24,6 @@ IndiaCart-SQL-Project/
 │   ├── 03_intermediate_queries.sql
 │   └── 04_advanced_queries.sql
 │
-└── insights/
-    └── findings.md
 ```
 
 ---
@@ -107,8 +106,6 @@ employees ──< employees (Self JOIN via manager_id)
 | Advanced | Running totals and averages with OVER() |
 | Advanced | CTE (Common Table Expressions) |
 
----
-
 ## 📊 Key Business Insights
 
 - 🏆 Appliances is the highest average price category at ₹4,649
@@ -138,7 +135,11 @@ employees ──< employees (Self JOIN via manager_id)
 
 ---
 
-## 👨‍💻 Author - krishnamohang1715
+## 👨‍💻 Author
 
+**Krishna Mohan**
 Built as a personal SQL learning project — covering beginner to advanced concepts
 using a real world themed Indian e-commerce dataset.
+
+📧 mohangaganam1167@gmail.com
+🔗 www.linkedin.com/in/krishna-mohan-94a897218
