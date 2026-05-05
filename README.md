@@ -138,7 +138,7 @@ employees ──< employees (Self JOIN via manager_id)
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author - krishnamohang1715
 
 Built as a personal SQL learning project — covering beginner to advanced concepts
 using a real world themed Indian e-commerce dataset.
