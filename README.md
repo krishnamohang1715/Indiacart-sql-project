@@ -1,13 +1,13 @@
 # 🛒 IndiaCart — End to End SQL Analytics Project
 
 ## Project Overview
-# Project Title: IndiaCart Sales Analysis
-# Level: Beginner
-# Database: SalesOrders
+## Project Title: IndiaCart Sales Analysis
+## Level: Beginner
+## Database: SalesOrders
 
 A beginner to advanced SQL project built on a simulated Indian e-commerce and HR dataset.This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a SaleOrders database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 
-# Objectives
+## Objectives
 Set up a SaleOrders database: Create and populate a SaleOrders database with the provided datasets.
 Data Cleaning: Identify and remove any records with missing or null values.
 Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
