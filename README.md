@@ -1,6 +1,6 @@
 # 🛒 IndiaCart — End to End SQL Analytics Project
 
-Project Overview
+###Project Overview
 Project Title: IndiaCart Sales Analysis
 Level: Beginner
 Database: SalesOrders
