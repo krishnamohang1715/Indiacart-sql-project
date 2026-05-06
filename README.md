@@ -117,7 +117,7 @@ employees ──< employees (Self JOIN via manager_id)
 ---
 ### 3. Data Analysis & Findings
 The following SQL queries were developed to answer specific business questions
-#### SELECT & WHERE — Filtering data
+##### SELECT & WHERE — Filtering data
 
 -- 1.Get all customers from Hyderabad ?
 ```
@@ -139,7 +139,7 @@ WHERE status = 'Delivered' ;
 SELECT * FROM Employees 
 WHERE department IN ('Engineering', 'HR') ;
 ```
--- Solving Realtime business problems by using ORDER BY & LIMIT — Sorting data
+##### ORDER BY & LIMIT — Sorting data
 -- 5.List all products from most expensive to cheapest ?
 ```
 SELECT product_name, price,
@@ -185,7 +185,7 @@ ON o.product_id = p.product_id
 ORDER BY o.order_date DESC
 LIMIT 3 ;
 ```
-#### GROUP BY & Aggregate functions
+##### GROUP BY & Aggregate functions
 -- 8.How many orders did each customer place ?
 ```
 SELECT * FROM Products 
@@ -221,7 +221,7 @@ GROUP BY category
 ORDER BY Highest_avg DESC
 LIMIT 1;
 ```
-#### JOINs — Combining tables
+##### JOINs — Combining tables
 -- 12.Show each order along with the customer's full name ?
 ```
 SELECT * FROM Orders
@@ -274,7 +274,7 @@ FROM employees e
 LEFT JOIN employees m ON e.manager_id = m.employee_id
 ORDER BY e.employee_id;
 ```
-#### CASE WHEN — Conditional logic
+##### CASE WHEN — Conditional logic
 -- 16.Label each product as 'Expensive', 'Medium', or 'Cheap' based on price ?
 ```
 SELECT product_name, price,
@@ -338,7 +338,7 @@ FROM Customers;
        SUBSTRING(email, POSITION('@' IN email) + 1) AS domain
 FROM Customers;
 ```
-#### Date Funtions
+##### Date Funtions
 -- 21.Find how many days ago each order was placed from today ?
 ```
 SELECT * FROM Orders ;
@@ -375,7 +375,7 @@ SELECT employee_id, first_name, last_name, hire_date,CURRENT_DATE,
 FROM Employees
 ORDER BY Experience DESC;
 ```
-#### WINDOW Funtions
+##### WINDOW Funtions
 -- 24.Rank employees by salary within each department ?
 -- Used RANK() OVER()
 ```
@@ -501,7 +501,7 @@ ORDER BY total_spends DESC;
 
 ## 👨‍💻 Author
 
-**Krishna Mohan**
+##### Krishna Mohan
 Built as a personal SQL learning project — covering beginner to advanced concepts using a real world themed Indian e-commerce dataset. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
 
 📧 mohangaganam1167@gmail.com
