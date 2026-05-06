@@ -3,7 +3,11 @@
 ## Project Overview
 ## Project Title: IndiaCart Sales Analysis
 ## Level: Beginner
-## Database: SalesOrders
+## Database: ```sql 
+               SalesOrders
+               ```
+
+
 
 A beginner to advanced SQL project built on a simulated Indian e-commerce and HR dataset.This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a SaleOrders database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 
@@ -40,25 +44,11 @@ IndiaCart-SQL-Project/
 ### 1. Database Setup
 
 Database Creation: The project starts by creating a database named SaleOrders.
-Table Creation: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+Table Creation: Created tables of customers, products, orders, and employees to store the sales data. The table structure includes columns for customer ID, email, product ID, stock quantity, order ID, total amount.
+
 ```sql 
 
-CREATE DATABASE p1_retail_db;
-
-CREATE TABLE retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
-);
+CREATE DATABASE SaleOrders;
 
 ```
 ## 🗄️ Database Schema
