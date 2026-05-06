@@ -117,7 +117,7 @@ employees ──< employees (Self JOIN via manager_id)
 ---
 ### 3. Data Analysis & Findings
 The following SQL queries were developed to answer specific business questions
--- Solving Realtime business problems by using SELECT & WHERE — Filtering data
+#### SELECT & WHERE — Filtering data
 
 -- 1.Get all customers from Hyderabad ?
 ```
@@ -152,7 +152,6 @@ SELECT product_name, price,
 FROM Products ;
 ```
 -- 6.Show the 5 most recently hired employees ?
--- Replaced NULL values with NO MANAGER 
 ```
 SELECT employee_id, first_name, COALESCE(CAST(manager_id AS VARCHAR), 'No Manager')
 FROM Employees ;
@@ -161,6 +160,9 @@ SELECT employee_id, first_name, hire_date
 FROM Employees
 ORDER BY hire_date DESC 
 LIMIT 5;
+```
+-- Replaced NULL values with NO MANAGER 
+```
 SELECT employee_id, first_name, hire_date, COALESCE(CAST(manager_id AS VARCHAR), 'No Manager')
 FROM Employees
 ORDER BY 3 DESC 
@@ -183,7 +185,7 @@ ON o.product_id = p.product_id
 ORDER BY o.order_date DESC
 LIMIT 3 ;
 ```
--- Solving Realtime business problems by using GROUP BY & Aggregate functions
+#### GROUP BY & Aggregate functions
 -- 8.How many orders did each customer place ?
 ```
 SELECT * FROM Products 
@@ -219,7 +221,7 @@ GROUP BY category
 ORDER BY Highest_avg DESC
 LIMIT 1;
 ```
--- Solving Realtime business problems by using JOINs — Combining tables
+#### JOINs — Combining tables
 -- 12.Show each order along with the customer's full name ?
 ```
 SELECT * FROM Orders
@@ -272,11 +274,8 @@ FROM employees e
 LEFT JOIN employees m ON e.manager_id = m.employee_id
 ORDER BY e.employee_id;
 ```
--- Solving Realtime business problems by using CASE WHEN — Conditional logic
+#### CASE WHEN — Conditional logic
 -- 16.Label each product as 'Expensive', 'Medium', or 'Cheap' based on price ?
- Expensive = above ₹2000
- Medium = ₹500 to ₹2000
- Cheap = below ₹500
 ```
 SELECT product_name, price,
         CASE 
@@ -308,7 +307,7 @@ FROM orders
 GROUP BY order_category
 ORDER BY revenue DESC;
 ```
--- Solving Realtime business problems by using String Funtions
+##### String Funtions
 -- 18.Show all customer emails in UPPERCASE ?
 ```
 SELECT * FROM Customers
@@ -339,8 +338,7 @@ FROM Customers;
        SUBSTRING(email, POSITION('@' IN email) + 1) AS domain
 FROM Customers;
 ```
--- Solving Realtime business problems by using Date Funtions
-
+#### Date Funtions
 -- 21.Find how many days ago each order was placed from today ?
 ```
 SELECT * FROM Orders ;
@@ -377,7 +375,7 @@ SELECT employee_id, first_name, last_name, hire_date,CURRENT_DATE,
 FROM Employees
 ORDER BY Experience DESC;
 ```
--- Solving Realtime business problems by using WINDOW Funtions
+#### WINDOW Funtions
 -- 24.Rank employees by salary within each department ?
 -- Used RANK() OVER()
 ```
